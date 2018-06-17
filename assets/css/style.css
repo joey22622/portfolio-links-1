@@ -1,0 +1,123 @@
+body{
+    font-family: "brother-1816", sans-serif;
+    min-height: 100vh;
+    background: rgba(0,0,0,.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 4rem 15%;
+}
+
+a,
+a:visited{
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover h3{
+    padding: 1rem 8rem;
+    border-left: solid 1px #FC4C02;
+    border-right: solid 1px #FC4C02;
+}
+
+a:hover .description{
+    color: white;
+}
+
+a:hover div{
+    background: rgba(0,0,0,.7);
+}
+
+
+h1,
+h2,
+h3,
+h4{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    transition: .5s;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing : .3rem;
+}
+
+h2{
+    color: rgba(255,255,255,.7);
+    letter-spacing: .5rem;
+}
+h3{
+    width: 30rem;
+    margin: 2rem auto 1rem auto;
+    padding: auto 5rem;
+    border-left: solid 1px rgba(0,0,0,1);
+    border-right: solid 1px rgba(0,0,0,1);
+}
+
+.description{
+    transition: .5s;
+}
+
+.message{
+    margin: 4rem 0;
+    padding: 1rem 7rem;
+    font-style: oblique;
+    text-align: center;
+    border-left: solid .5px rgba(255,255,255,.6);
+    border-right: solid .5px rgba(255,255,255,.6);
+
+}
+div{
+    border-top: solid 1px rgba(255,255,255,.1);
+    padding: 1rem;
+    transition: .5rem;
+}
+
+section{
+    background: rgba(0,0,0,.1);
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.2rem;
+    box-shadow: 5px 5px 25px black;
+
+
+
+    
+}
+
+p{
+    line-height: 1.6rem;
+    font-family: sans-serif;
+    color: rgba(255,255,255,.6);
+    font-weight: 100;
+    padding: 1rem 7rem;
+    text-align: center;
+
+
+}
+
+span{
+    display: block;
+    padding: .5rem;
+    color: white;
+}
+
+@media only screen and (max-width: 762px){
+    body{
+        width: 100%;
+    }
+    h3{
+        padding: 0;
+        width: auto;
+    }
+    p{
+        padding: 1rem 2rem;
+
+    }
+   
+}
